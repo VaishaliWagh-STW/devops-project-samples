@@ -15,7 +15,6 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-
 - task: SonarQubePrepare@5
   inputs:
     SonarQube: 'SonarQube'
